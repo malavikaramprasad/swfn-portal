@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './client/App';
 import * as serviceWorker from './serviceWorker';
-
+const mongoose = require('mongoose');
 
 ReactDOM.render(
   <React.StrictMode>
